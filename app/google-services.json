@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "593745014170",
+    "firebase_url": "https://cpool-fd297.firebaseio.com",
+    "project_id": "cpool-fd297",
+    "storage_bucket": "cpool-fd297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593745014170:android:a75958e1595ee31d",
+        "android_client_info": {
+          "package_name": "com.example.reshmaanjali.cpool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593745014170-tr9kkghrvn758u9f0m72bdb7i8ffl45g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reshmaanjali.cpool",
+            "certificate_hash": "66f3307ac77afab559cc1e0c52ccb5ff58a40345"
+          }
+        },
+        {
+          "client_id": "593745014170-5956uttug1qesdfh25200t9kqtbaae7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFQdl9uleFYgHQ3MlS-zpx-2K5RSwK9AY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593745014170-5956uttug1qesdfh25200t9kqtbaae7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

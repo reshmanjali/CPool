@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_scrl"
+    tools:context=".CreationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pool Details"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From "
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="from Place"
+                android:id="@+id/id_from_place"
+                android:layout_marginLeft="16dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On "
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="25-5-2018"
+                android:padding="10dp"
+                android:inputType="date"
+                android:id="@+id/id_from_date"
+                android:layout_marginLeft="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At "
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2.00 PM"
+                android:inputType="time"
+                android:id="@+id/id_from_time"
+                android:layout_marginLeft="16dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To "
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="to Place"
+                android:id="@+id/id_to_place"
+                android:layout_marginLeft="16dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On "
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="26-5-2018"
+                android:inputType="date"
+                android:padding="10dp"
+                android:id="@+id/id_to_date"
+                android:layout_marginLeft="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At "
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="16dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2.30 PM"
+                android:inputType="time"
+                android:id="@+id/id_to_time"
+                android:layout_marginLeft="16dp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle details"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle type"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Innova"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/id_veh_type"
+            android:textSize="18sp"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Number"
+                android:textSize="18sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="AP 07 U 7549"
+                android:layout_marginLeft="16dp"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:id="@+id/id_veh_num"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Details"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="18sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jhon Doe"
+                android:layout_marginLeft="16dp"
+                android:textSize="18sp"
+                android:id="@+id/id_cnt_name"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No. "
+                android:textSize="18sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="9999999999"
+                android:inputType="phone"
+                android:layout_marginLeft="16dp"
+                android:textSize="18sp"
+                android:id="@+id/id_cnt_mobile"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email id "
+                android:textSize="18sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="john@gmail.com"
+                android:inputType="textWebEmailAddress"
+                android:layout_marginLeft="16dp"
+                android:textSize="18sp"
+                android:id="@+id/id_cnt_mail"
+                />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Any note\nThis is my first drive.\nI will be glad to share this drive with u."
+            android:textSize="24sp"
+            android:padding="8dp"
+            android:id="@+id/id_sml_note"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="create"
+           android:padding="4dp"
+            android:id="@+id/id_create_btn"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+           />
+
+    </LinearLayout>
+</ScrollView>

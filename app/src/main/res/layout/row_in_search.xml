@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:layout_marginBottom="10dp"
+    android:background="#f0f0ff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="hfvs"
+            android:layout_weight="0.3"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:id="@+id/id_fromPlaceData"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="TO"
+            android:layout_weight="0.3"
+            android:fontFamily="casual"
+            android:textColor="#000000"
+            android:textSize="27sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:text="jfiosf"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:id="@+id/id_toPlaceData"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Start Time"
+            android:fontFamily="casual"
+            android:textColor="@color/colorAccent"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Reaching Time"
+            android:fontFamily="casual"
+            android:textColor="@color/colorAccent"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Start Time"
+            android:id="@+id/id_fromDateTimeData"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="End Time"
+            android:textColor="#000000"
+            android:id="@+id/id_toDateTimeData"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vehicle details"
+        android:fontFamily="casual"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Vehicle Details"
+        android:id="@+id/id_veh_num_veh_type_data"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact"
+        android:fontFamily="casual"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="contact Details"
+        android:id="@+id/id_cnt_name_mobile_mail_data"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="notes"
+        android:textSize="20sp"
+        android:id="@+id/id_smallNotesData"/>
+</LinearLayout>
